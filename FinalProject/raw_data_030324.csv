@@ -1,0 +1,1262 @@
+﻿id,train1,test1,train2,test2,test1_object1,test1_object1_confidence,test1_object2,test1_object2_confidence,test1_memCheck1,test1_memCheck1_confidence,test1_memCheck2,test1_memCheck2_confidence,test1_memCheck_base,test1_memCheck_base_confidence,test1_memCheck_feature,test1_memCheck_feature_confidence,distractor_output,test2_object1,test2_object1_confidence,test2_object2,test2_object2_confidence,test2_memCheck1,test2_memCheck1_confidence,test2_memCheck2,test2_memCheck2_confidence,test2_memCheck3,test2_memCheck3_confidence,test2_memCheck4,test2_memCheck4_confidence,test2_memCheck_base,test2_memCheck_base_confidence,test2_memCheck_feature,test2_memCheck_feature_confidence,open-ended definition
+1,1A,PD,1Aa,PT,yes,60,yes,55,2,90,1,90,1,95,2,40,"ORDER: 3,2,3,3,4,2,4,4,2
+
+R,R,1,0;L,L,1,0;Y,Y,1,0;
+S,T,0,1;F,F,1,0;Q,Q,1,1;
+K,K,1,1;J,J,1,1;J,J,1,1;
+Q,Q,1,1;S,S,1,1;
+R,Q,0,1;S,R,0,0;F,F,1,0;
+J,J,1,1;N,N,1,1;Q,Q,1,1;
+H,H,1,1;S,N,0,1;J,J,1,1;S,S,1,1;
+J,J,1,1;N,N,1,1;
+T,T,1,0;Q,Q,1,1;Q,Q,1,1;F,F,1,1;
+H,H,1,1;R,R,1,1;L,L,1,1;T,T,1,1;
+J,J,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.90, PL=0.89, FU=0.78, FL=0.74",no,60,no,60,1,90,2,90,3,90,4,90,1,90,2,70,
+2,1B,PD,1Ab,PT,no,60,yes,80,1,80,2,80,2,80,2,80,"ORDER: 4,4,3,2,3,3,4,2,2
+
+F,F,1,0;K,K,1,0;J,J,1,0;
+T,T,1,1;S,S,1,1;Y,Y,1,1;
+H,H,1,1;T,T,1,1;P,P,1,1;J,J,1,1;
+Y,Y,1,0;F,F,1,1;T,T,1,1;P,P,1,1;
+J,J,1,1;P,P,1,1;Y,Y,1,1;
+Y,Y,1,1;J,J,1,1;
+T,T,1,1;J,J,1,0;T,T,1,1;
+J,J,1,1;T,T,1,1;J,J,1,1;
+J,J,1,0;T,T,1,1;P,P,1,1;K,K,1,0;
+F,J,0,1;N,N,1,0;
+Y,Y,1,1;L,L,1,1;
+
+RESULTS: n=27, acc=81%, PU=0.94, PL=0.96, FU=0.89, FL=0.93",yes,60,no,80,1,50,2,50,4,50,3,50,2,80,3,50,
+3,1C,PD,1Ac,PT,yes,50,yes,50,1,70,2,70,1,99,2,70,"ORDER: 3,2,2,4,2,4,3,3,4
+
+Y,Y,1,0;S,S,1,0;H,H,1,0;
+L,L,1,1;S,S,1,1;J,J,1,1;
+J,J,1,1;S,S,1,1;R,R,1,1;
+P,J,0,1;N,R,0,1;
+P,P,1,1;H,H,1,0;
+R,R,1,1;R,R,1,1;L,H,0,1;P,P,1,1;
+H,H,1,1;Y,Y,1,1;
+L,L,1,1;L,H,0,1;T,T,1,1;J,J,1,1;
+S,S,1,1;P,P,1,1;K,K,1,0;
+Q,P,0,0;P,Q,0,1;K,K,1,1;
+Q,Q,1,1;P,P,1,1;N,N,1,1;F,F,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.76, PL=0.78, FU=0.56, FL=0.52",yes,60,no,90,3,99,1,99,4,99,2,99,1,99,1,99,
+4,1D,PD,1Ad,PT,no,95,yes,95,2,100,1,100,both,65,both,50,"ORDER: 3,4,2,2,2,4,3,3,4
+
+F,F,1,0;J,J,1,0;P,P,1,0;
+L,L,1,1;R,R,1,1;Y,Y,1,1;
+R,R,1,1;L,L,1,1;R,R,1,1;
+K,K,1,1;T,T,1,1;K,K,1,1;P,P,1,1;
+H,H,1,1;H,H,1,0;
+L,L,1,1;F,F,1,0;
+P,F,0,0;R,R,1,1;
+Q,Q,1,1;S,S,1,1;S,S,1,1;Q,Q,1,1;
+J,J,1,1;K,K,1,1;Q,Q,1,1;
+S,S,1,1;F,F,1,1;J,J,1,1;
+S,S,1,1;T,T,1,1;F,F,1,1;R,R,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.94, PL=0.96, FU=0.89, FL=0.93",yes,70,no,99,4,100,3,100,2,100,1,100,1,100,1,100,"""the object or shape that is inside the object"""
+5,1A,YC,1Ba,PT,no,75,no,60,2,100,1,100,1,100,1,100,"ORDER: 3,2,2,4,4,4,2,3,3
+
+N,N,1,0;R,R,1,0;L,L,1,0;
+J,J,1,1;P,P,1,1;Q,Q,1,1;
+R,R,1,1;S,S,1,1;N,J,0,1;
+P,Q,0,1;H,P,0,1;
+N,N,1,1;L,L,1,1;
+Y,Y,1,1;F,F,1,1;Y,Y,1,1;P,P,1,0;
+Y,Y,1,1;P,P,1,0;H,H,1,1;H,H,1,1;
+S,S,1,1;P,P,1,1;J,J,1,1;K,K,1,1;
+F,F,1,1;N,N,1,1;
+R,R,1,1;F,F,1,1;T,T,1,1;
+H,H,1,1;J,J,1,1;S,S,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.85, PL=0.89, FU=0.78, FL=0.81",no,90,yes,50,2,100,1,100,3,100,4,100,1,100,2,100,"""shapes and colors!"""
+6,1B,YC,1Bb,PT,no,30,yes,30,1,50,1,50,1,50,1,40,"ORDER: 4,2,4,3,3,2,4,3,2
+
+H,H,1,0;R,R,1,0;S,S,1,0;
+Q,Q,1,0;F,S,0,1;K,K,1,1;
+N,N,1,0;P, ,0,1;Q,Q,1,1;Y, ,0,1;
+S,S,1,1;J,J,1,1;
+T,T,1,1;P,P,1,1;T,T,1,1;J,J,1,1;
+L,L,1,1;Q,Q,1,0;J,J,1,0;
+R,R,1,1;S,S,1,1;S,S,1,0;
+P,P,1,1;N,N,1,1;
+F,F,1,1;F,F,1,1;N,N,1,1;R,R,1,1;
+L,F,0,1;F,L,0,1;H,H,1,1;
+K,K,1,1;R,R,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.87, PL=0.85, FU=0.78, FL=0.74",no,30,yes,30,1,70,4,70,2,70,3,70,1,80,2,80,"""it's probably based on the object inside that makes something a blicket"""
+7,1C,YC,1Bc,PT,no,60,no,40,1,100,2,100,1,20,2,30,"ORDER: 4,4,3,4,2,2,3,3,2
+
+K,K,1,0;J,J,1,0;K,K,1,0;
+J,J,1,1;R,R,1,1;K,K,1,1;
+N,J,0,1;N,N,1,1;J,J,1,1;H,H,1,1;
+P,P,1,1;L,L,1,0;R,R,1,1;N,N,1,0;
+Y,Y,1,1;K,K,1,1;H,H,1,1;
+S,S,1,0;L,L,1,1;R,R,1,0;Y,Y,1,1;
+Y,Y,1,1;P,P,1,1;
+N,N,1,1;R,R,1,1;
+J,J,1,1;R,R,1,1;P,P,1,1;
+R,R,1,1;N,N,1,1;R,R,1,1;
+T,T,1,1;Q,Q,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.97, PL=0.96, FU=0.89, FL=0.85",yes,40,yes,40,3,100,2,50,4,80,1,80,1,100,3,,"""warm colors"""
+8,1D,YC,1Bd,PT,yes,58,no,58,2,80,1,80,1,70,1,60,"ORDER: 2,2,2,3,4,3,4,3,4
+
+J,J,1,0;P,P,1,0;N,N,1,0;
+H,H,1,1;S,S,1,1;Y,Y,1,1;
+R,R,1,0;Q,Q,1,0;
+K,K,1,0;Q,Q,1,1;
+Y,Y,1,1;J,J,1,1;
+F,F,1,1;L,L,1,1;Q,Q,1,1;
+T,T,1,1;P,P,1,1;Y,Y,1,1;Q,Q,1,1;
+F,F,1,1;L,L,1,1;F,F,1,1;
+L,L,1,1;Y,Y,1,1;S,S,1,1;F,F,1,1;
+N,N,1,1;R, ,0,0;F,F,1,0;
+K,K,1,0;T,T,1,0;L,L,1,1;H,H,1,0;
+
+RESULTS: n=27, acc=70%, PU=0.96, PL=0.96, FU=0.89, FL=0.89",no,60,yes,60,4,80,3,80,1,80,2,80,1,80,2,60,"""objects that are associated with other objects that are blickets are also blickets"""
+9,2A,PD,1Aa,GL,no,60,no,30,2,90,1,90,2,90,2,90,"ORDER: 2,4,4,3,4,2,3,3,2
+
+J,J,1,0;P,P,1,0;N,N,1,0;
+L,L,1,1;N,N,1,0;S,S,1,0;
+P,L,0,1;Q,Q,1,0;
+Q,Q,1,1;Q,Q,1,1;T,T,1,1;L,L,1,1;
+F,F,1,1;K,K,1,1;L,L,1,1;L,L,1,1;
+T,T,1,1;T,T,1,1;Y,Y,1,0;
+Y,Y,1,1;K,K,1,1;K,K,1,1;R,R,1,1;
+F,F,1,1;L,L,1,1;
+Y,Y,1,1;S,S,1,1;J,J,1,0;
+S,S,1,1;Q,Q,1,1;F,F,1,1;
+F,F,1,1;F,F,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.94, PL=0.96, FU=0.89, FL=0.93",no,65,yes,50,1,90,2,90,3,90,4,90,1,90,1,90,"""there's a smaller shape inside an object that determines if th eobject is a blicket, and non-primary colors seem to be blicket objects"""
+10,2B,PD,1Ab,GL,no,35,yes,50,1,100,2,100,2,100,2,75,"ORDER: 3,2,4,4,4,3,3,2,2
+
+Q,Q,1,0;T,T,1,0;P,P,1,0;
+J,J,1,1;Y,Y,1,1;P,P,1,1;
+L,L,1,1;Y,Y,1,1;K,K,1,1;
+L,L,1,1;L,L,1,1;
+F,F,1,1;P,K,0,1;R,R,1,0;T,T,1,1;
+R,R,1,1;T,T,1,1;H,K,0,1;R,R,1,0;
+Y,Y,1,1;F,F,1,1;R,R,1,1;Y,Y,1,1;
+L,L,1,1;J,J,1,1;Y,Y,1,1;
+L,L,1,1;T,T,1,1;H,H,1,1;
+S,S,1,1;H,H,1,1;
+F,F,1,1;P,P,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.94, PL=0.93, FU=0.78, FL=0.70",no,65,yes,35,2,100,4,100,1,100,3,100,1,100,1,100,"""matching shape (sharp vs rounded). What's on the inside (rounded shape). Green rounded square w/ yellow circle, orange cross + pink cone"""
+11,2C,PD,1Ac,GL,yes,50,no,50,1,90,2,90,2,100,1,70,"ORDER: 2,3,4,2,3,3,2,4,4
+
+P,P,1,0;L,L,1,0;N,N,1,0;
+S,S,1,1;S,S,1,1;S,S,1,0;
+H,H,1,1;J,J,1,1;
+T,T,1,0;F,F,1,1;R,R,1,0;
+K,K,1,1;J,J,1,0;Y,Y,1,0;J,J,1,1;
+H,H,1,1;S,S,1,1;
+J,H,0,1;S,J,0,1;S,S,1,1;
+S,S,1,1;Y,Y,1,1;L,L,1,1;
+T,S,0,1;J,J,1,1;
+S,S,1,1;P,P,1,1;T,T,1,1;T,T,1,0;
+S,S,1,1;J,J,1,1;T,P,0,1;N,N,1,0;
+
+RESULTS: n=27, acc=78%, PU=0.84, PL=0.85, FU=0.67, FL=0.67",no,55,yes,55,3,90,1,90,4,90,2,90,1,95,1,90,"""an object is a blicket if it turns on / activates the blinky rectangle"""
+12,2D,PD,1Ad,GL,yes,80,no,80,2,100,1,100,2,100,1,100,"ORDER: 4,4,3,2,2,3,4,3,2
+
+Y,Y,1,0;S,S,1,0;H,H,1,0;
+N,N,1,1;R,R,1,1;S,S,1,1;
+L,L,1,1;P,P,1,1;R,R,1,1;Q,Q,1,1;
+S,S,1,1;K,K,1,1;T,T,1,1;Y,Y,1,1;
+H,H,1,1;K,K,1,1;N,N,1,1;
+H,H,1,1;Y,Y,1,1;
+K,K,1,1;S,S,1,1;
+K,K,1,1;Q,Q,1,1;P,P,1,1;
+L,L,1,1;T,T,1,1;N,N,1,1;J,J,1,1;
+N,N,1,1;S,S,1,1;L,L,1,1;
+Q,Q,1,1;L,L,1,1;
+
+RESULTS: n=27, acc=100%, PU=1.00, PL=1.00, FU=1.00, FL=1.00
+",no,75,yes,60,4,75,3,90,2,85,1,100,1,100,1,95,"""interior shape with a pointed triangular edge, also interior shape must be some shade of purple"""
+13,2A,YC,1Ba,GL,no,50,no,75,2,100,1,100,2,90,2,80,"ORDER: 2,4,3,3,2,2,4,3,4
+
+S,S,1,0;L,L,1,0;R,R,1,0;
+N,N,1,1;N,N,1,1;T,T,1,1;
+H,H,1,1;K,K,1,1;
+Y,Y,1,1;T,T,1,1;K,K,1,1;K,K,1,1;
+P,H,0,0;T,T,1,1;R,R,1,1;
+T,T,1,1;N,N,1,1;J,J,1,1;
+Q,Q,1,1;S,S,1,1;
+F,Q,0,1;H,H,1,1;
+T,T,1,1;F,F,1,1;P,P,1,1;N,N,1,1;
+Y,Y,1,1;H,H,1,1;F,F,1,1;
+F,F,1,1;F,F,1,1;J,J,1,1;H,H,1,1;
+
+RESULTS: n=27, acc=96%, PU=0.91, PL=0.93, FU=0.78, FL=0.81
+
+",no,40,no,55,2,100,1,100,3,100,4,100,1,100,2,95,"""an object is considered a blicket if it is not a typical polygon and has been seen with a shape that is also not a polygon"""
+14,2B,YC,1Bb,GL,no,50,no,70,1,100,2,100,2,0,2,0,"ORDER: 2,3,3,3,2,4,4,2,4
+
+S,S,1,0;H,H,1,0;Y,Y,1,0;
+J,J,1,1;N,N,1,1;S,S,1,1;
+T,T,1,1;R,R,1,1;
+N,N,1,1;N,N,1,1;L,L,1,1;
+N,N,1,1;K,K,1,1;Y,Y,1,1;
+J,J,1,1;S,N,0,1;R,R,1,0;
+P,P,1,1;J,J,1,1;
+L,J,0,1;P,P,1,0;K,K,1,1;R,R,1,1;
+F,J,0,1;F,F,1,1;F,F,1,1;Q,Q,1,1;
+F,F,1,1;N,N,1,1;
+S,N,0,1;S,Q,0,0;Q,Q,1,1;R,R,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.85, PL=0.81, FU=0.56, FL=0.44
+",yes,70,no,70,1,100,4,100,2,100,3,100,1,100,2,100,"""if the object has been shown with or is the object that activated a response"""
+15,2C,YC,1Bc,GL,yes,80,yes,60,1,90,2,95,1,50,2,50,"ORDER: 3,3,4,3,2,4,2,2,4
+
+P,P,1,0;N,N,1,0;H,H,1,0;
+J,J,1,1;H,H,1,1;Y,Y,1,1;
+L,L,1,1;Q,H,0,1;P,Q,0,1;
+N,J,0,1;R,R,1,1;H,H,1,1;
+R,R,1,1;Q,Q,1,1;R,R,1,1;L,L,1,1;
+J,J,1,1;S,S,1,1;Y,Y,1,1;
+H,J,0,1;Q,Q,1,1;
+K,K,1,1;Y,Y,1,1;T,T,1,1;J,J,1,1;
+J,J,1,1;K,K,1,1;
+L,L,1,1;S,S,1,1;
+F,F,1,1;Y,Y,1,1;F,F,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=100%, PU=0.83, PL=0.85, FU=0.67, FL=0.70",yes,80,no,80,3,95,2,95,4,95,1,95,1,90,2,90,"""how many characteristics it has in common with either a previously-seen blicket or characteristics later associated with a preivously-seen blicket"""
+16,2D,YC,1Bd,GL,no,60,no,60,2,100,1,95,1,10,1,10,"ORDER: 4,2,3,4,2,3,2,4,3
+
+F,F,1,0;J,J,1,0;F,F,1,0;
+P,P,1,1;R,R,1,0;Y,Y,1,1;
+K,K,1,1;R,R,1,1;L,L,1,1;L,L,1,1;
+Y,R,0,1;F,F,1,0;
+Y,Y,1,1;R,R,1,1;J,J,1,1;
+Y,R,0,1;Y,Y,1,1;Y,J,0,1;H,H,1,0;
+Y,P,0,1;H,H,1,1;
+Q,Q,1,1;K,K,1,1;F,F,1,1;
+P,P,1,1;N,N,1,1;
+Y,Y,1,1;K,K,1,1;N,N,1,1;H,H,1,1;
+J,H,0,0;N,N,1,1;P,P,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.80, PL=0.81, FU=0.56, FL=0.59",no,40,no,40,4,55,3,50,1,60,2,55,1,100,2,35,"""An object is a blinker if the bottom isn't curved and the shape that is shown has fewer than 5 sides"""
+17,A1,PD,2Aa,PT,yes,45,no,50,2,95,1,95,1,95,1,85,"ORDER: 3,3,3,2,4,2,4,4,2
+
+S,S,1,0;F,F,1,0;N,N,1,0;
+K,K,1,1;K,K,1,1;L,L,1,1;
+Y,Y,1,1;T,T,1,1;T,T,1,1;
+Q,Q,1,1;S,S,1,1;F,F,1,1;
+Y,Y,1,1;Y,Y,1,1;T,T,1,1;
+S,S,1,1;N,N,1,1;
+F,F,1,1;J,J,1,0;R,R,1,1;R,R,1,1;
+R,R,1,1;S,S,1,1;
+L,L,1,1;L,L,1,1;P,P,1,1;S,S,1,1;
+Y,Y,1,1;R,R,1,1;Y,Y,1,1;K,K,1,1;
+Y,Y,1,1;N,N,1,1;
+
+RESULTS: n=27, acc=96%, PU=1.00, PL=1.00, FU=1.00, FL=1.00
+",no,50,yes,50,1,80,2,80,3,80,4,80,2,85,2,85,"""the different shape of the blicket or the different shape inside"""
+18,B1,PD,2Ab,PT,yes,60,yes,50,1,100,2,100,1,100,1,100,"ORDER: 4,4,2,2,3,4,3,2,3
+
+P,P,1,0;Q,Q,1,0;S,S,1,0;
+L,L,1,1;K,K,1,1;L,L,1,1;
+P,R,0,1;P,P,1,1;S,S,1,1;T,T,1,1;
+L,L,1,0;S,S,1,1;P,P,1,1;L,L,1,1;
+N,N,1,1;J,J,1,1;
+Y,Y,1,1;H,H,1,1;
+Y,Y,1,1;R,R,1,1;Q,Q,1,1;
+H,Y,0,1;F,H,0,1;R,R,1,1;H,H,1,1;
+Y,Y,1,1;S,S,1,1;S,S,1,0;
+S,S,1,1;P,P,1,1;
+Q,Q,1,1;N,N,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.92, PL=0.89, FU=0.78, FL=0.70",no,65,yes,50,2,100,4,100,1,100,3,100,2,100,2,90,"""polygons with flat edges touching detector / inside shapes have edges / color (red/blue)"""
+19,C1,PD,2Ac,PT,no,78,yes,70,1,100,2,100,1,10,2,80,"ORDER: 2,3,3,2,4,4,3,2,4
+
+F,F,1,0;L,L,1,0;S,S,1,0;
+L,L,1,1;N,N,1,1;R,R,1,0;
+N,N,1,0;H,H,1,1;
+N,N,1,1;H,H,1,1;N,N,1,1;
+Y,Y,1,1;T,N,0,1;P,P,1,1;
+F,F,1,1;S,S,1,1;
+S,S,1,1;F,F,1,1;S,S,1,1;S,S,1,1;
+T,T,1,0;N,N,1,1;T,T,1,1;H,H,1,1;
+P,P,1,1;F,F,1,1;R,R,1,1;
+L,L,1,1;Q,Q,1,1;
+R,P,0,1;L,L,1,1;S,S,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.94, PL=0.93, FU=0.78, FL=0.74",no,79,yes,75,3,100,1,100,4,100,2,100,2,75,2,75,"""I think a blicket is any object that activates the blicket detector (even combined with another) so when the pentagon activated the detector, I assumed that the thing that goes with the pentagon is by association a blicket"""
+20,D1,PD,2Ad,PT,no,75,no,75,1,50,2,50,1,80,1,80,,no,90,yes,90,3,50,4,50,2,100,1,100,2,100,2,100,"""an object is a blicket if it is actived upon some sort of specific input"""
+21,A1,YC,2Ba,PT,no,90,no,80,2,100,1,100,1,80,1,20,"ORDER: 4,2,2,4,3,4,3,3,2
+
+K,K,1,0;L,L,1,0;P,P,1,0;
+P,P,1,1;F,F,1,1;L,L,1,1;
+F,F,1,1;J,J,1,1;F,F,1,1;J,J,1,1;
+R,P,0,1;H,L,0,0;
+F,F,1,1;Y,Y,1,1;
+H,H,1,0;S,S,1,0;R,R,1,1;H,H,1,0;
+Y,Y,1,1;L,L,1,1;R,R,1,1;
+K,K,1,1;K,K,1,1;N,L,0,1;Q,Q,1,1;
+T,T,1,1;Q,Q,1,1;Y,Y,1,1;
+S,S,1,1;H,H,1,1;F,F,1,1;
+T,T,1,1;H,H,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.86, PL=0.89, FU=0.78, FL=0.78",no,90,no,80,2,100,1,100,3,80,4,80,2,70,1,70,"""the outside shape, not the inside shape"""
+22,B1,YC,2Bb,PT,no,90,yes,55,1,100,2,100,1,100,1,90,"ORDER: 2,3,3,2,2,4,4,4,3
+
+H,H,1,0;K,K,1,0;T,T,1,0;
+J,T,0,0;L,L,1,0;R,R,1,1;
+F,F,1,1;P,P,1,1;
+F,F,1,1;R,R,1,1;H,H,1,1;
+H,H,1,1;K,K,1,1;L,L,1,0;
+Y,H,0,1;P,P,1,1;
+F,F,1,1;F,F,1,1;
+Q,Q,1,1;Y,Y,1,1;P,P,1,1;Q,Q,1,1;
+K,K,1,1;H,Y,0,1;Y,H,0,1;K,K,1,1;
+H,H,1,1;R,R,1,1;R,R,1,1;L,L,1,1;
+K,H,0,1;F,F,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=96%, PU=0.85, PL=0.85, FU=0.67, FL=0.67
+",yes,50,no,50,2,100,1,100,3,100,4,100,2,100,1,90,"""I think the larger object would activate the blicket detector since it is in a blicket - the smaller object inside of it could by association be a blicket, but I'm unsure of whether thisis the case as its my own assumption"""
+23,C1,YC,2Bc,PT,no,30,no,50,1,100,2,100,1,100,2,50,"ORDER: 4,3,3,4,2,3,4,2,2
+
+Q,Q,1,0;T,T,1,0;K,K,1,0;
+L,L,1,1;Q,Q,1,1;N,N,1,1;
+F,F,1,1;H,H,1,1;J,J,1,1;N,N,1,1;
+Q,Q,1,0;T,T,1,1;Q,Q,1,1;
+R,R,1,1;Q,Q,1,1;Q,Q,1,0;
+K, ,0,1;Q, ,0,1;S,Q,0,1;T,T,1,0;
+H,H,1,1;L,L,1,1;
+T,T,1,1;J,J,1,1;H,H,1,1;
+Y,Y,1,1;P,P,1,1;K,K,1,0;F,F,1,1;
+T,T,1,1;F,F,1,1;
+P,P,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.92, PL=0.89, FU=0.89, FL=0.85",no,50,no,50,3,100,2,75,4,100,1,100,2,100,1,50,"""I think it is the shape that makes it a blicket"""
+24,D1,YC,2Bd,PT,yes,25,no,25,2,100,1,100,1,100,2,25,"ORDER: 2,2,2,3,4,4,3,3,4
+
+N,N,1,0;F,F,1,0;N,N,1,0;
+P,P,1,1;Y,Y,1,1;L,L,1,1;
+R,R,1,1;P,P,1,1;
+L,L,1,1;Y,Y,1,0;
+F,F,1,1;T,T,1,1;
+L,L,1,1;N,N,1,1;H,H,1,1;
+K,K,1,1;N,N,1,1;K,K,1,1;N,N,1,1;
+J,J,1,0;Y,Y,1,1;L,L,1,1;H,H,1,1;
+H,H,1,1;Q,Q,1,0;J,J,1,1;
+L,L,1,1;S,S,1,1;P,P,1,1;
+L,P,0,1;H,H,1,1;Q,Q,1,0;F,F,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.97, PL=0.96, FU=0.89, FL=0.85",yes,25,no,25,4,100,3,100,1,100,2,100,2,100,1,100,"""I think the small shape inside the large shape makes the object a blicket"""
+25,A2,PD,2Aa,GL,no,50,no,50,2,100,1,100,2,100,2,50,"ORDER: 2,3,4,4,2,4,3,3,2
+
+T,T,1,0;Q,Q,1,0;L,L,1,0;
+Y,Y,1,0;Y,Y,1,0;N,N,1,0;
+R,R,1,1;P,P,1,1;
+S,S,1,0;H,H,1,1;L,L,1,1;
+J,H,0,1;K,K,1,1;P,P,1,1;Q,Q,1,1;
+Y,J,0,1;R,Y,0,1;Y,Y,1,1;H,H,1,0;
+S,H,0,1;P,P,1,1;
+J,J,1,1;N,N,1,0;P,P,1,1;P,P,1,1;
+K,J,0,1;Q,Q,1,1;Y,Y,1,1;
+K,P,0,0;Q,S,0,1;S,S,1,1;
+Q,Q,1,1;S,S,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.75, PL=0.74, FU=0.44, FL=0.41",no,50,no,50,1,100,2,100,3,100,4,100,2,100,5,50,"""either being turquoise or a pentagon or a green ellipse"""
+26,B2,PD,2Ab,GL,no,60,no,40,1,100,2,100,2,100,2,60,"ORDER: 3,4,2,3,2,4,4,3,2
+
+K,K,1,0;R,R,1,0;J,J,1,0;
+T,T,1,1;K,K,1,1;N,N,1,1;
+P,P,1,1;F,F,1,1;L,L,1,1;
+S,S,1,1;Q,Q,1,1;Y, ,0,1;R,K,0,1;
+F,F,1,1;L,L,1,1;
+H,H,1,1;Y,Y,1,1;Y,Y,1,1;
+S,S,1,1;Q,Q,1,0;
+Q,Q,1,0;S,S,1,1;Q,Q,1,1;R,R,1,1;
+S,S,1,1;P,P,1,1;Q,Q,1,1;K,K,1,1;
+H,H,1,1;S,S,1,1;T,T,1,1;
+P,P,1,1;H,H,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.94, PL=0.93, FU=0.89, FL=0.85",yes,30,no,50,2,95,4,80,1,85,3,100,2,95,2,75,"""objects with cool, green/blue colors maybe?"""
+27,C2,PD,2Ac,GL,yes,60,no,60,1,100,2,100,2,100,1,100,"ORDER: 3,2,2,4,4,4,3,3,2
+
+N,N,1,0;Q,Q,1,0;K,K,1,0;
+H,H,1,0;H,H,1,1;N,N,1,1;
+Y,Y,1,0;P,P,1,1;K,K,1,0;
+Q,Q,1,1;H,H,1,1;
+P,P,1,1;S,S,1,1;
+Q,Q,1,1;K,K,1,1;J,J,1,1;J,J,1,1;
+T,T,1,1;J,J,1,0;S,S,1,0;S,S,1,1;
+F,F,1,1;H,H,1,1;R,R,1,1;L,L,1,1;
+L,L,1,1;L,L,1,1;Q,Q,1,1;
+H,H,1,1;L,L,1,1;R,R,1,0;
+K,K,1,1;P,P,1,1;
+
+RESULTS: n=27, acc=81%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",yes,85,no,80,3,50,1,50,4,60,2,80,2,90,2,90,"""I think an object is a blicket if it activates a blicket detector, or is associated with an object that activates it (it appears on that object)"""
+28,D2,PD,2Ad,GL,no,90,mo,90,2,100,1,100,2,100,1,10,"ORDER: 4,2,3,2,4,3,2,4,3
+
+Y,Y,1,0;L,L,1,0;Y,Y,1,0;
+R,R,1,1;P,T,0,1;H,H,1,1;
+H,R,0,1;K,K,1,0;F,H,0,0;F,F,1,1;
+J,K,0,1;L,L,1,1;
+F,F,1,1;F,F,1,0;Y,Y,1,1;
+K,K,1,1;S,S,1,1;
+Q,Q,1,1;H,H,1,1;Q,Q,1,1;N,N,1,1;
+S,S,1,1;R,R,1,1;S,S,1,1;
+Y,Y,1,1;K,K,1,1;
+N,K,0,1;R,R,1,1;P,P,1,1;K,K,1,1;
+Y, ,0,1;Y,R,0,1;J,J,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.79, PL=0.78, FU=0.56, FL=0.52
+
+",no,90,no,90,4,100,3,100,2,100,1,100,2,90,2,10,"""a blicket seems to refer to a part and or outer shape"""
+29,A2,YC,2Ba,GL,no,60,no ,40,2,100,1,100,1,50,1,50,"ORDER: 3,2,4,3,3,2,2,4,4
+
+L,L,1,0;H,H,1,0;L,L,1,0;
+L,L,1,1;J,J,1,1;P,P,1,1;
+Y,Y,1,1;S,S,1,1;J,J,1,1;
+H,H,1,0;R,R,1,1;
+J,J,1,1;T,T,1,1;N,N,1,1;R,R,1,1;
+N,N,1,1;P,P,1,0;K,K,1,1;
+R,R,1,1;S,S,1,1;N,N,1,1;
+S,S,1,1;R,R,1,1;
+J,J,1,1;H,H,1,1;
+N,N,1,0;Q,Q,1,1;J,J,1,1;J,J,1,1;
+T,T,1,1;J,J,1,1;Y,Y,1,1;Q,Q,1,0;
+
+RESULTS: n=27, acc=85%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no ,70,yes ,80,2,100,1,100,3,100,4,100,2,100,1,100,"""the one that went off + the item that was inside the one that went off"""
+30,B2,YC,2Bb,GL,yes,45,no,60,1,95,2,95,2,95,2,70,"ORDER: 3,3,4,2,4,2,3,4,2
+
+Q,Q,1,0;K,K,1,0;S,S,1,0;
+T,T,1,1;J,J,1,1;R,R,1,1;
+J,T,0,0;L,J,0,1;T,L,0,0;
+K,K,1,1;L,L,1,1;R,R,1,1;
+T,T,1,1;R,R,1,1;J,J,1,1;K,K,1,1;
+Q,Q,1,1;S,S,1,1;
+P,P,1,1;J,J,1,1;Q,Q,1,1;R,R,1,1;
+S,S,1,1;K,K,1,1;
+P,P,1,1;Q,Q,1,1;Y,Y,1,1;
+L,L,1,1;N,N,1,1;F,F,1,1;Q,Q,1,1;
+P,P,1,1;H,H,1,0;
+
+RESULTS: n=27, acc=89%, PU=0.89, PL=0.89, FU=0.89, FL=0.89
+ORDER: 3,3,4,2,4,2,3,4,2
+
+Q,Q,1,0;K,K,1,0;S,S,1,0;
+T,T,1,1;J,J,1,1;R,R,1,1;
+J,T,0,0;L,J,0,1;T,L,0,0;
+K,K,1,1;L,L,1,1;R,R,1,1;
+T,T,1,1;R,R,1,1;J,J,1,1;K,K,1,1;
+Q,Q,1,1;S,S,1,1;
+P,P,1,1;J,J,1,1;Q,Q,1,1;R,R,1,1;
+S,S,1,1;K,K,1,1;
+P,P,1,1;Q,Q,1,1;Y,Y,1,1;
+L,L,1,1;N,N,1,1;F,F,1,1;Q,Q,1,1;
+P,P,1,1;H,H,1,0;
+
+RESULTS: n=27, acc=89%, PU=0.89, PL=0.89, FU=0.89, FL=0.89",no ,60,yes,60,1,95,4,95,2,80,3,95,2,95,1,90,"""an object is  a blicket if it has shown to be associated  an object that we've previously seen activates the blicket detector"""
+31,C2,YC,2Bc,GL,yes,60,yes,60,1,90,2,90,2,100,1,100,"ORDER: 3,4,3,2,2,4,4,3,2
+
+R,R,1,0;J,J,1,0;F,F,1,0;
+Y,Y,1,1;J,F,0,1;J,J,1,1;
+Y,Y,1,1;N,N,1,1;K,K,1,1;
+S,S,1,1;F,F,1,1;J,J,1,1;S,Y,0,1;
+S,S,1,1;Y,Y,1,1;N,N,1,1;
+Y,Y,1,1;Y,Y,1,1;
+N,N,1,1;R,R,1,1;
+Y,Y,1,1;R,R,1,1;Y,Y,1,1;Q,Q,1,1;
+P,P,1,1;Q,Q,1,0;Y,Y,1,1;R,R,1,1;
+L,L,1,1;N,N,1,0;K,K,1,1;
+L,L,1,1;R,R,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.97, PL=0.96, FU=0.89, FL=0.85
+",no,90,no,90,1,100,4,90,2,90,3,100,2,90,1,90,"""object that matches the previous shape"""
+32,D2,YC,2Bd,GL,yes,60,no,60,2,90,1,80,1,90,1,90,"ORDER: 4,4,3,2,2,4,3,3,2
+
+T,T,1,0;F,F,1,0;Q,Q,1,0;
+K,K,1,1;T,T,1,1;P,P,1,1;
+F,F,1,1;R,R,1,0;Y,Y,1,1;T,T,1,1;
+K,K,1,1;P,P,1,1;F,F,1,1;Q,Q,1,1;
+L,L,1,1;Q,Q,1,1;Q,Q,1,1;
+N,K,0,1;S,S,1,1;
+Y,Y,1,0;K,K,1,1;
+F,F,1,1;J,K,0,1;K, ,0,1;J, ,0,1;
+Y,Y,1,1;F,F,1,1;T,T,1,1;
+T,T,1,1;S,S,1,1;J,J,1,1;
+K,T,0,1;K,K,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.81, PL=0.81, FU=0.67, FL=0.70",no,80,yes,70,4,90,3,100,1,90,2,90,2,100,1,90,"""a blicket was a specific combination between an outer and inner object that gave a response when going through the detector"""
+33,1Aa,PT,1A,PD,no,75,no,99,2,100,1,100,1,100,1,75,"ORDER: 3,3,2,4,3,4,2,4,2
+
+H,H,1,0;R,R,1,0;Q,Q,1,0;
+R,R,1,1;T,T,1,1;H,H,1,1;
+F,F,1,1;Q,Q,1,1;Q,Q,1,0;
+K,K,1,0;H,H,1,1;F,F,1,1;
+L,L,1,1;T,T,1,1;
+H,H,1,1;F,F,1,1;K,K,1,1;J,J,1,1;
+P,P,1,1;N,N,1,1;Y,Y,1,1;
+F,F,1,1;S,S,1,1;P,P,1,1;L,L,1,1;
+L,L,1,1;P,P,1,1;
+K,K,1,1;T,T,1,1;H,H,1,1;H,H,1,1;
+K,K,1,1;F,F,1,0;
+
+RESULTS: n=27, acc=89%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",yes,90,yes,50,1,100,2,100,3,100,4,100,1,100,1,80,"""the inner shape must have either an even # of sides or only right angles"""
+34,1Ab,PT,1B,PD,yes,30,yes,10,1,100,2,100,1,100,1,20,"ORDER: 4,3,4,2,2,3,3,4,2
+
+F,F,1,0;T,T,1,0;N,N,1,0;
+N,N,1,1;P,P,1,0;T,T,1,1;
+S,S,1,1;L,L,1,1;K,K,1,0;L,L,1,1;
+L,L,1,1;J,J,1,1;Y,Y,1,1;
+K,K,1,1;N,L,0,1;L,N,0,1;J,J,1,0;
+N,N,1,1;T,T,1,0;
+P,P,1,1;F,F,1,1;
+R,R,1,1;P,P,1,1;R,R,1,1;
+T,T,1,1;J,J,1,1;K,K,1,0;
+Y,Y,1,1;F,F,1,1;Y,Y,1,1;N,N,1,1;
+P,P,1,1;J,J,1,0;
+
+RESULTS: n=27, acc=81%, PU=0.94, PL=0.93, FU=0.89, FL=0.85",no,30,no,30,4,25,3,25,2,25,3,25,1,100,2,25,"""When the object has corners but can flatly touch the surface"""
+35,1Ac,PT,1C,PD,no,60,yes,40,1,95,2,95,1,90,2,70,"ORDER: 2,3,3,4,2,2,4,4,3
+
+Y,Y,1,0;F,F,1,0;P,P,1,0;
+N,N,1,1;S,S,1,0;S,S,1,1;
+S,S,1,1;N,N,1,0;
+R,R,1,1;K,K,1,1;R,R,1,1;
+Q,Q,1,1;Y,Y,1,1;J,J,1,1;
+F,F,1,1;S,S,1,1;Q,Q,1,1;P,P,1,1;
+L,L,1,1;P,P,1,1;
+Y,Y,1,0;K,K,1,1;
+R,R,1,1;Y,Y,1,1;N,N,1,1;Y,Y,1,1;
+J,J,1,1;L,L,1,1;K,K,1,1;S,S,1,1;
+T,T,1,1;R,R,1,1;R,R,1,1;
+
+RESULTS: n=27, acc=93%, PU=1.00, PL=1.00, FU=1.00, FL=1.00
+",no,55,no,25,3,90,1,95,4,90,2,90,1,90,1,80,n/a
+36,1Ad,PT,1D,PD,no,100,yes,50,1,100,1,100,1,100,2,100,"ORDER: 7,7,2,4,3,2,5,3,4,6,7,3,4,2,6,6,5,5
+
+ORDER: 3,2,2,4,3,2,4,3,4
+
+R,R,1,0;J,J,1,0;H,H,1,0;
+S,H,0,0;R,R,1,1;S,S,1,0;
+N,N,1,1;S,S,1,0;F,F,1,0;
+K,K,1,1;T,S,0,1;
+H,S,0,0;J,J,1,1;
+Y,Y,1,1;R,R,1,0;P,P,1,1;P,S,0,1;
+L,L,1,1;Y,Y,1,0;L,L,1,1;
+P,Y,0,1;J,J,1,0;
+K,Y,0,0;K,N,0,1;P,P,1,1;L,L,1,1;
+R,R,1,1;Q,Q,1,1;T,T,1,1;
+S,R,0,1;H,S,0,1;N,N,1,0;T,T,1,1;
+
+RESULTS: n=27, acc=70%, PU=0.69, PL=0.70, FU=0.33, FL=0.33",yes,80,no,50,4,100,3,100,2,100,1,100,1,100,1,100,"""if they correspond with the first object that activates the blicket detector"""
+37,1Ba,PT,1A,YC,no,90,yes,60,2,100,1,100,1,100,1,100,"ORDER: 4,3,3,4,4,2,2,3,2
+
+P,P,1,0;K,K,1,0;T,T,1,0;
+T,T,1,1;F,F,1,1;T,T,1,1;
+R,K,0,0;S,T,0,1;K,K,1,1;K, ,0,1;
+R,R,1,1;Q,Q,1,1;R,R,1,1;
+J,J,1,1;L,L,1,1;K,K,1,1;
+N,N,1,1;J,J,1,1;S,S,1,1;H,H,1,1;
+S,S,1,1;F, ,0,1;R,R,1,0;N,N,1,1;
+L,S,0,1;R,R,1,1;
+R,R,1,1;Y,Y,1,1;
+N,N,1,1;Y,Y,1,1;F,F,1,1;
+F,F,1,1;N,N,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.83, PL=0.81, FU=0.67, FL=0.63",no,80,yes,60,2,100,1,100,3,100,4,100,1,100,2,100,"""if the object activates something"""
+38,1Bb,PT,1B,YC,no,80,no,60,1,99,2,99,1,99,1,80,"ORDER: 3,3,3,4,2,2,4,2,4
+
+ORDER: 2,3,3,4,4,2,3,2,4
+
+K,K,1,0;H,H,1,0;Y,Y,1,0;
+T,T,1,1;P,P,1,1;Y,Y,1,1;
+S,S,1,1;F,F,1,1;
+H,H,1,1;Q,Q,1,1;H,T,0,1;
+J,J,1,1;Q,Q,1,1;L,L,1,1;
+S,S,1,1;F,F,1,1;Q, ,0,1;L,L,1,1;
+P,P,1,1;K,K,1,1;F,F,1,1;Y,Y,1,1;
+R,R,1,1;F,F,1,1;
+R,R,1,1;Y,Y,1,1;S,S,1,1;
+T,T,1,1;K,K,1,1;
+S,S,1,1;H,H,1,1;Y,Y,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=100%, PU=0.94, PL=0.93, FU=0.78, FL=0.74",no,99,no,70,1,99,4,60,1,80,3,80,1,99.9,2,80,"""A red square, potentially others, not a green rounded rectangle"" "
+39,1Bc,PT,1C,YC,yes,60,no,50,1,100,2,100,1,100,2,70,"ORDER: 3,4,2,2,2,4,3,4,3
+
+Y,Y,1,0;N,N,1,0;F,F,1,0;
+K,K,1,1;J,J,1,1;N,N,1,1;
+H,H,1,1;L,L,1,1;Q,Q,1,1;
+K, ,0,1;Q,Q,1,0;L,L,1,1;Y,Y,1,1;
+T,T,1,1;S,S,1,1;
+H,H,1,1;K,K,1,1;
+Q,Q,1,1;P,P,1,1;
+P,P,1,1;R,R,1,1;R,R,1,1;Y,Y,1,1;
+J,J,1,1;R,R,1,1;P,P,1,1;
+K, ,0,1;K,K,1,1;Q,Q,1,1;F,F,1,1;
+H,H,1,1;N,N,1,1;L,L,1,1;
+
+RESULTS: n=27, acc=96%, PU=0.94, PL=0.93, FU=0.78, FL=0.70
+",yes,50,no,50,3,75,2,75,4,75,1,80,1,100,2,50,"""When you have enough belief in the object you can manifest an activation of the blicket detector. Once a blicket, it will remain a blicket. (I'm not really sure about what makes an object a blicket)."""
+40,1Bd,PT,1D,YC,no,100,no,100,2,100,1,100,1,100,2,30,"ORDER: 3,4,4,4,2,3,2,2,3
+
+Y,Y,1,0;L,L,1,0;F,F,1,0;
+Q,Q,1,1;T,T,1,1;S,S,1,1;
+N,N,1,1;S,S,1,1;L,L,1,1;
+P,P,1,1;R,R,1,1;P,P,1,1;Y,Y,1,1;
+F,F,1,1;Y,Y,1,1;Q,Q,1,1;Y,Y,1,1;
+K,K,1,1;R,R,1,1;H,H,1,1;F,F,1,1;
+L,L,1,1;H,H,1,1;
+P,P,1,1;J,J,1,1;F,F,1,1;
+R,R,1,1;R,R,1,1;
+H,H,1,1;K,K,1,1;
+R,R,1,1;R,R,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=100%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,100,no,60,4,90,3,90,1,90,2,90,2,100,2,15,"""something that is totally made up, but only responds to one specific stimulus/shape"""
+41,1Aa,GL,2A,PD,no,65,no,65,2,90,1,75,2,90,2,0,"ORDER: 2,4,3,4,2,4,3,2,3
+
+T,T,1,0;Q,Q,1,0;L,L,1,0;
+T,T,1,1;K,K,1,1;H,H,1,1;
+J,J,1,1;S,S,1,1;
+S,S,1,1;H,H,1,1;N,N,1,1;N,N,1,1;
+J,J,1,1;N,N,1,1;L,L,1,1;
+L,L,1,1;R,R,1,1;P,P,1,1;H,H,1,0;
+F,F,1,1;R,R,1,1;
+H,H,1,1;K,K,1,1;L,L,1,1;R,R,1,1;
+S,S,1,1;R,R,1,1;S,S,1,1;
+H,H,1,1;J,J,1,1;
+H,H,1,1;L,L,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=96%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,40,no,40,1,30,2,75,3,75,4,15,1,70,1,20,"""colder, lighter color, as opposed to warm, darker colors"""
+42,1Ab,GL,2B,PD,no,80,yes,80,1,99,2,99,2,99,2,90,"ORDER: 3,3,2,2,4,3,4,4,2
+
+S,S,1,0;Q,Q,1,0;P,P,1,0;
+L,P,0,1;L,L,1,1;R,R,1,1;
+K,K,1,1;K,K,1,1;L,L,1,1;
+T,T,1,1;H,H,1,1;H,H,1,1;
+P,P,1,0;Y,Y,1,1;
+K,K,1,1;K,K,1,1;
+K,K,1,0;R,R,1,0;L,L,1,1;S,S,1,1;
+S,R,0,1;L,L,1,0;P,P,1,1;
+H,H,1,1;Q,Q,1,1;P,P,1,1;J,J,1,1;
+T,T,1,1;L,L,1,1;N,N,1,1;Y,Y,1,1;
+L,L,1,1;N,N,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.96, PL=0.96, FU=0.89, FL=0.89
+",no,80,yes,80,2,99,4,99,1,99,3,99,1,99,1,80,"""if it is detected by the detector, or if the object is associated with another object that is a blicket"""
+43,1Ac,GL,2C,PD,yes,80,no,80,2,100,2,100,2,100,1,100,"ORDER: 3,2,2,4,3,4,3,2,4
+
+R,R,1,0;N,N,1,0;J,J,1,0;
+Y,Y,1,1;F,R,0,0;P,P,1,1;
+Y,Y,1,1;F,F,1,1;S,S,1,1;
+R,R,1,1;T,T,1,1;
+K,K,1,1;J,J,1,1;
+H,H,1,1;N,N,1,1;L,L,1,1;J,J,1,1;
+J,J,1,1;F,F,1,1;L,L,1,1;
+S,S,1,1;S,S,1,1;Y,Y,1,1;S,S,1,1;
+P,P,1,1;S,S,1,1;T,T,1,1;
+H,H,1,1;J,J,1,1;
+N,H,0,1;H,N,0,1;F,L,0,1;Y,J,0,1;
+
+RESULTS: n=27, acc=100%, PU=0.89, PL=0.85, FU=0.89, FL=0.85",no,65,yes,60,3,100,1,100,4,100,2,100,1,100,1,100,"""an object is a blicket if it activates the rectange at the bottom of the screen by making it blink colors"""
+44,1Ad,GL,2D,PD,no,50,no,90,2,100,1,100,2,100,1,100,"ORDER: 3,4,3,2,4,2,2,4,3
+
+N,N,1,0;P,P,1,0;L,L,1,0;
+S,S,1,0;H,H,1,1;Q,Q,1,1;
+F, ,0,0;N,N,1,1;H,H,1,1;
+S,S,1,1;R,H,0,0;Y,Y,1,1;P,P,1,1;
+F,F,1,1;R,R,1,1;T,T,1,1;
+F,F,1,1;S,S,1,1;
+R,F,0,1;P,P,1,1;H,H,1,1;N,N,1,1;
+T,T,1,1;P,P,1,0;
+K,K,1,1;L,L,1,1;
+N,N,1,1;T,T,1,1;P,P,1,1;Q,Q,1,1;
+N,N,1,1;R,P,0,1;K,K,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.87, PL=0.85, FU=0.56, FL=0.48",no,50,yes,60,4,70,3,80,1,80,1,80,1,99,1,70,"""I think maybe rounder shapes would make an object more likely to be a blicket? But I'm not sure if the blicket detector interacts with the shape within the shape since the animation shown only had pure shapes without inner shapes."""
+45,1Ba,GL,2A,YC,yes,60,no,80,2,100,1,100,2,100,2,85,"ORDER: 3,2,3,4,2,3,2,4,4
+
+Y,Y,1,0;R,R,1,0;Y,Y,1,0;
+T,T,1,1;P,P,1,1;F,F,1,0;
+T,T,1,1;J,J,1,1;L,L,1,1;
+J,J,1,1;P,P,1,1;
+H,H,1,0;L,L,1,1;Y,Y,1,1;
+J,J,1,0;T,T,1,0;S,S,1,1;S,S,1,1;
+S,S,1,1;T,T,1,1;
+L,L,1,1;H,H,1,1;H,H,1,1;
+Y,Y,1,1;R,R,1,1;
+L,L,1,1;L,L,1,1;F,F,1,1;F,F,1,1;
+H,H,1,1;H,H,1,1;L,L,1,1;S,S,1,1;
+
+RESULTS: n=27, acc=89%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,60,no,70,1,65,1,80,3,80,4,95,1,100,1,75,"""A blicket seems to be a shape that is similar to but not actually a square (e.g. has rounded or inverted corners)"""
+46,1Bb,GL,2B,YC,yes,50,no,50,1,80,2,80,2,80,2,80,"ORDER: 3,2,4,4,2,2,3,4,3
+
+R,R,1,0;H,H,1,0;F,F,1,0;
+Q,R,0,1;K,K,1,1;F,F,1,1;
+T,P,0,1;R,R,1,1;T,T,1,1;
+H,N,0,1;N,N,1,1;
+J,R,0,0;P,J,0,1;L,H,0,1;T,T,1,1;
+S,R,0,1;Y,H,0,1;F,J,0,1;F,F,1,0;
+F,F,1,1;J,J,1,0;
+F,F,1,1;S,S,1,1;
+H,F,0,1;J,J,1,1;P,P,1,1;
+S,F,0,0;Y,T,0,1;P,Y,0,1;T,P,0,0;
+K,K,1,1;Y,Y,1,1;L,L,1,1;
+
+RESULTS: n=27, acc=81%, PU=0.59, PL=0.52, FU=0.33, FL=0.26
+",yes,10,no,20,2,10,4,10,3,10,1,10,1,70,1,10,"""If an object makes contact w/ the black rectangle and the PC makes a loud noise"""
+47,1Bc,GL,2C,YC,no,95,no,80,1,100,2,100,2,100,1,95,"ORDER: 3,3,2,2,4,3,4,2,4
+
+ORDER: 3,3,3,4,2,4,4,2,2
+
+K,K,1,0;J,J,1,0;T,T,1,0;
+R,R,1,1;R,R,1,1;K,K,1,1;
+Y,Y,1,1;F,F,1,1;F,F,1,1;
+N,F,0,1;J,J,1,1;P,P,1,0;
+R,R,1,1;H,H,1,1;Q,Q,1,1;
+N,N,1,1;K,K,1,1;Q,Q,1,0;Y,Y,1,1;
+J,J,1,1;H,H,1,1;
+T,T,1,1;Q,Q,1,1;P,P,1,1;H,H,1,1;
+P,P,1,1;J,J,1,1;Q,Q,1,1;R,R,1,1;
+L,L,1,0;R,R,1,1;
+H,H,1,0;H,H,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.96, PL=0.96, FU=0.89, FL=0.89",no,30,no,90,3,90,2,60,4,90,1,100,1,100,2,80,"""the object that has outer shape that can activate the detector. That being said, whether there is an inner element, if the outer structure satisfy then the detector should be turned on."" "
+48,1Bd,GL,2D,YC,no,100,no,50,2,100,1,100,2,100,1,100,"ORDER: 3,3,4,4,2,3,2,2,4
+
+T,T,1,0;Y,Y,1,0;F,F,1,0;
+L,L,1,0;Q,Q,1,1;Y,Y,1,1;
+K,K,1,1;L,L,1,1;L,L,1,1;
+R,K,0,1;J,J,1,0;S,S,1,0;
+P,P,1,1;N,N,1,1;N,N,1,0;K,K,1,1;
+T,K,0,1;Y,Y,1,0;K,K,1,0;P,P,1,0;
+J,K,0,0;H,H,1,1;
+R,R,1,0;Y,Y,1,0;J,J,1,0;
+L,K,0,0;F,F,1,1;
+Q,Q,1,1;N,N,1,1;
+H,H,1,1;P,Q,0,1;R,R,1,1;F,F,1,0;
+
+RESULTS: n=27, acc=56%, PU=0.80, PL=0.81, FU=0.44, FL=0.44",yes,85,no,100,4,100,3,100,1,100,2,100,1,100,2,100,"""The first inference I had was the inside shape, as in a specific inner shape made the blicker 'blick'. The second one now is that a characteristic of the outside does. For instance, whether the shape has rounded edges or not."""
+49,2Aa,PT,A1,PD,yes,99,no,99,2,100,1,100,1,100,1,100,"ORDER: 4,4,3,3,2,4,3,2,2
+
+F,F,1,0;K,K,1,0;N,N,1,0;
+F,F,1,1;H,H,1,0;S,S,1,1;
+T,H,0,1;N,N,1,1;L,L,1,1;N,F,0,1;
+P,P,1,1;K,K,1,0;P,P,1,1;L,L,1,1;
+H,H,1,1;R,R,1,1;N,N,1,1;
+N,N,1,1;P,P,1,1;J,J,1,1;
+R,R,1,1;H,H,1,1;
+R,R,1,1;N,N,1,1;P,P,1,1;L,L,1,1;
+S,S,1,1;J,J,1,1;R,R,1,1;
+J,J,1,0;J,J,1,1;
+H,H,1,1;Y,Y,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.94, PL=0.93, FU=0.89, FL=0.85",no,70,yes,70,1,65,2,90,3,95,4,95,2,80,2,85,"""If an object is part of a system of objects that make the blicket detector sound"""
+50,2Ab,PT,B1,PD,yes,50,no,50,1,90,2,90,1,95,1,80,"ORDER: 3,4,2,3,3,2,4,4,2
+
+J,J,1,0;Y,Y,1,0;S,S,1,0;
+Q,Q,1,0;P,P,1,1;T,T,1,1;
+J,J,1,1;S,S,1,1;T,T,1,1;
+T,T,1,1;P,P,1,1;J,J,1,1;N,N,1,1;
+N,N,1,1;L,L,1,1;
+F,F,1,1;K,K,1,1;J,J,1,1;
+L,L,1,1;N,N,1,1;J,J,1,1;
+Q,Q,1,1;P,P,1,1;
+R,R,1,1;K,K,1,1;K,K,1,1;S,S,1,1;
+R,R,1,1;J,J,1,1;N,N,1,1;H,H,1,1;
+N,N,1,1;F,F,1,1;
+
+RESULTS: n=27, acc=100%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,90,yes,50,2,80,4,80,1,80,3,80,2,95,2,80,"""regularly shaped polygons (i.e. the pentagon, the square). Not irregular polygons (the cross, the curved rectangle)."""
+51,2Ac,PT,C1,PD,yes,40,yes,50,1,100,2,100,1,100,1,40,"ORDER: 3,2,4,3,4,2,4,2,3
+
+Q,Q,1,0;L,L,1,0;H,H,1,0;
+N,N,1,1;S,S,1,0;Y,Y,1,1;
+N,N,1,1;T,T,1,1;P,P,1,1;
+H,H,1,1;F,F,1,1;
+N,N,1,1;Q,H,0,0;N,Q,0,1;N,N,1,0;
+J,J,1,1;N,N,1,1;K,K,1,1;
+S,J,0,1;H,H,1,1;L,L,1,1;K,K,1,1;
+K,K,1,1;T,T,1,0;
+T,T,1,0;S,S,1,1;J,J,1,1;Y,Y,1,1;
+K,K,1,1;F,F,1,1;
+Q,Q,1,1;F,F,1,1;S,S,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.92, PL=0.89, FU=0.78, FL=0.70",no,70,no,60,3,80,1,50,4,90,2,100,2,100,3,70,"""polygon, shape with defined sides and no curves, and not overly concave or convex"""
+52,2Ad,PT,D1,PD,no,75,yes,30,2,100,1,100,1,100,2,50,"ORDER: 4,4,2,2,4,3,3,2,3
+
+T,T,1,0;Y,Y,1,0;T,T,1,0;
+R,R,1,1;H,H,1,1;K,K,1,1;
+K,K,1,1;Y,Y,1,1;T,T,1,1;R,R,1,1;
+Q,Q,1,1;Y,Y,1,1;H,H,1,1;F,F,1,1;
+T,T,1,1;J,J,1,1;
+Q,Q,1,1;N,N,1,1;
+Y,Y,1,1;H,H,1,1;R,R,1,1;S,S,1,1;
+R,R,1,1;J,J,1,1;R,R,1,1;
+K,K,1,1;T,T,1,1;R,R,1,1;
+F,F,1,1;Y,Y,1,1;
+Q,Q,1,1;N,N,1,0;R,R,1,1;
+
+RESULTS: n=27, acc=96%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,50,no,50,4,100,3,100,2,100,1,100,2,100,2,100,"""whether or not the outer shape sets off the detector, although maybe inner shapes that have those outer shapes could also be blickets"""
+53,2Ba,PT,A1,YC,yes,90,yes,95,2,100,1,100,1,95,1,90,"ORDER: 4,2,4,3,2,4,3,3,2
+
+Q,Q,1,0;R,R,1,0;N,N,1,0;
+Q,Q,1,0;T,T,1,0;R,R,1,1;
+F,Q,0,1;J,T,0,0;F,J,0,1;K,K,1,1;
+L,L,1,1;H,H,1,1;
+P,P,1,1;J,J,1,1;K,K,1,1;F,T,0,1;
+Q,Q,1,1;Y,Y,1,1;L,L,1,1;
+F,F,1,1;L,L,1,1;
+N,L,0,1;S,F,0,1;F,S,0,1;S,S,1,1;
+S,S,1,0;Y,Y,1,1;J,J,1,1;
+S,S,1,1;N,N,1,1;F,F,1,1;
+Q,Q,1,0;R,R,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.81, PL=0.74, FU=0.67, FL=0.56",no,70,no,60,2,95,1,100,3,100,4,100,2,95,4,80,"""At first I thought it was based on colour since the pentagon was blue and activation color was blue. But then the second time I thought it had to do with geometric shapes."""
+54,2Bb,PT,B1,YC,no,85,no,85,1,100,2,100,1,80,1,80,"ORDER: 2,3,3,4,2,4,2,3,4
+
+P,P,1,0;J,J,1,0;N,N,1,0;
+K,K,1,1;Y,Y,1,1;H,H,1,1;
+K,K,1,1;F,F,1,1;
+F,F,1,1;R,R,1,1;Q,Q,1,0;
+S,Q,0,1;S,S,1,1;H,H,1,0;
+S,S,1,1;S,S,1,1;H,H,1,1;H,H,1,0;
+R,R,1,1;R,R,1,1;
+J,J,1,1;T,T,1,1;H,H,1,1;R,R,1,1;
+H,H,1,1;F,F,1,1;
+S,S,1,1;H,H,1,1;K,K,1,1;
+L,L,1,1;L,L,1,1;K,K,1,1;Y,Y,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.96, PL=0.96, FU=0.89, FL=0.89",no,85,no,85,4,30,4,40,3,50,3,75,2,100,2,40,"""the one in the left, red. I remebered the green yellow, red-purple"" "
+55,2Bc,PT,C1,YC,no,50,no,95,1,95,2,95,1,95,2,95,"ORDER: 4,4,2,2,3,3,4,2,3
+
+J,J,1,0;H,H,1,0;Q,Q,1,0;
+L,L,1,1;Q,Q,1,1;N,N,1,1;
+P,P,1,1;L,L,1,1;F,F,1,0;N,N,1,1;
+F,F,1,1;F,F,1,1;H,H,1,1;P,P,1,0;
+S,S,1,1;P,P,1,1;
+P,P,1,1;N,N,1,1;
+N,N,1,1;Q,Q,1,1;J,J,1,1;
+Q,Q,1,1;T,T,1,1;N,N,1,1;
+P,P,1,1;N,N,1,1;Q,Q,1,1;L,L,1,1;
+H,H,1,1;T,T,1,1;
+H,H,1,1;T,T,1,1;P,P,1,0;
+
+RESULTS: n=27, acc=89%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,90,no,85,3,95,2,95,4,95,1,95,2,100,1,95,"""an object is a blicket if it makes the blicket detector flash/beep"""
+56,2Bd,PT,D1,YC,yes,80,no,80,2,100,1,100,1,100,2,100,"ORDER: 2,4,4,2,3,4,3,2,3
+
+N,N,1,0;F,F,1,0;T,T,1,0;
+Y,Y,1,1;L,L,1,1;Y,Y,1,1;
+J,J,1,1;L,L,1,1;
+Q,Q,1,1;R,R,1,1;P,P,1,1;P,P,1,1;
+Q,Q,1,1;H,H,1,0;P,P,1,1;J,J,1,1;
+Y,Y,1,1;T,T,1,1;
+H,H,1,1;H,H,1,1;P,P,1,1;
+Q,Q,1,1;Y,Y,1,1;R,R,1,1;S,S,1,1;
+Q,Q,1,1;J,J,1,1;K,K,1,1;
+J,J,1,1;S,S,1,1;
+Q,Q,1,1;Y,Y,1,1;N,N,1,1;
+
+RESULTS: n=27, acc=96%, PU=1.00, PL=1.00, FU=1.00, FL=1.00
+",no,75,yes,40,4,85,3,80,1,60,2,60,2,100,2,50,"""It is based on the bottom having a straight edge of the outer shape, but must then also correspond with the inner shape. Honestly, I think that does not hold up though, now that I have to write it down."""
+57,2Aa,GL,A2,PD,yes,40,no,40,2,100,1,100,1,85,1,40,"ORDER: 4,4,2,3,2,3,2,3,4
+
+F,F,1,0;R,R,1,0;H,H,1,0;
+F,F,1,1;K,K,1,1;Y,Y,1,1;
+J,F,0,1;F,J,0,1;F,K,0,1;T,T,1,1;
+K,K,1,1;Q,Q,1,1;Y,Y,1,1;K,K,1,1;
+Q,Q,1,1;T,T,1,1;
+S,S,1,1;S,S,1,1;F,F,1,1;
+P,P,1,1;R,R,1,1;
+Q,Q,1,1;H,H,1,1;J,J,1,1;
+Y,Y,1,1;S,S,1,1;
+N,N,1,1;K,K,1,1;H,H,1,1;
+Q,K,0,1;L,L,1,1;R,R,1,1;T,T,1,1;
+
+RESULTS: n=27, acc=100%, PU=0.89, PL=0.85, FU=0.78, FL=0.70",no,40,no,40,1,100,2,100,3,100,4,100,2,85,2,5,"""Definitely if it was the object that made the black bar flash & sound in the first video, but not sure the ""inside"" shapes affect blickets now"""
+58,2Ab,GL,B2,PD,no,60,yes,60,1,100,2,100,2,100,2,80,"ORDER: 3,4,4,2,2,3,4,3,2
+
+K,K,1,0;L,L,1,0;Q,Q,1,0;
+T,T,1,1;J,J,1,1;S,S,1,0;
+R,R,1,1;S,S,1,0;Q,Q,1,1;
+K,K,1,1;R,R,1,0;H,H,1,1;R,R,1,1;
+J,J,1,1;N,H,0,0;L,L,1,1;L,L,1,1;
+J,J,1,1;N,N,1,1;
+Q,Q,1,1;L,L,1,0;
+L,L,1,0;K,K,1,0;Y,Y,1,1;
+T,T,1,1;T,T,1,0;K,K,1,1;Q,Q,1,1;
+Q,Q,1,1;J,J,1,1;H,H,1,1;
+T,T,1,1;T,T,1,1;
+
+RESULTS: n=27, acc=74%, PU=0.97, PL=0.96, FU=0.89, FL=0.85",yes,50,no,75,2,100,4,75,1,75,3,100,2,100,2,60,"""The 'outside' object and its corresponding 'inside' object."" "
+59,2Ac,GL,C2,PD,yes,50,no,50,1,100,2,200,1,50,1,50,"ORDER: 3,3,2,3,4,4,2,2,4
+
+S,S,1,0;L,L,1,0;Y,Y,1,0;
+L,L,1,1;K,K,1,1;L,L,1,1;
+F,F,1,1;Q,Q,1,1;H,H,1,1;
+F,F,1,1;F,F,1,1;R,R,1,0;
+F,F,1,1;R,R,1,1;
+Q,Q,1,1;H,H,1,1;F,F,1,1;
+K,K,1,1;T,T,1,1;S,S,1,0;J,J,1,1;
+Q,Q,1,1;J,J,1,1;T,T,1,1;K,K,1,1;
+N,N,1,1;K,K,1,1;
+L,L,1,1;K,K,1,1;
+Y,Y,1,1;R,R,1,1;K,K,1,1;H,H,1,1;
+
+RESULTS: n=27, acc=93%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,50,no,50,3,100,1,90,4,90,2,100,2,50,2,50,"""Maybe object on the left would make a blicket"""
+60,2Ad,GL,D2,PD,no,70,no,100,2,100,1,100,2,100,1,100,"ORDER: 4,3,3,4,2,3,2,4,2
+
+T,T,1,0;Y,Y,1,0;T,T,1,0;
+P,P,1,0;J,J,1,1;Y,Y,1,1;
+R,P,0,1;R,R,1,1;K,K,1,1;Q,Q,1,1;
+Q,Q,1,1;H,H,1,1;Y,Y,1,1;
+L,L,1,1;Q,Q,1,1;K,K,1,1;
+T,T,1,1;F,F,1,1;H,H,1,1;H,H,1,1;
+N,H,0,1;Q,Q,1,0;
+S,S,1,0;S,S,1,1;Q,Q,1,0;
+P,P,1,1;P,P,1,1;
+T,P,0,1;R,R,1,1;P,P,1,1;K,K,1,0;
+P,P,1,1;Y,Y,1,0;
+
+RESULTS: n=27, acc=81%, PU=0.89, PL=0.89, FU=0.67, FL=0.63
+",no,80,no,50,4,80,2,70,1,70,3,100,2,100,4,50,"""Smooth on the outside, does not have a yellow circle in its interior"""
+61,2Ba,GL,A2,YC,no,80,no,80,2,100,1,100,2,100,2,80,"ORDER: 2,4,2,3,3,3,4,2,4
+
+K,K,1,0;L,L,1,0;H,H,1,0;
+J,J,1,1;P,P,1,1;T,T,1,1;
+P,P,1,1;H,H,1,1;
+H,H,1,1;H,H,1,1;R,R,1,1;K,K,1,1;
+S,S,1,1;F,F,1,1;
+F,F,1,0;K,K,1,1;N,N,1,1;
+S,S,1,1;L,L,1,1;Y,Y,1,1;
+S,S,1,1;R,R,1,1;S,S,1,1;
+L,L,1,1;K,K,1,1;H,H,1,1;L,L,1,1;
+H,H,1,1;R,R,1,1;
+R,R,1,1;R,R,1,1;H,H,1,1;L,L,1,1;
+
+RESULTS: n=27, acc=96%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,90,no,98,2,100,1,100,3,100,4,100,2,100,1,80,"""If it's a circle or pentagon"" "
+62,2Bb,GL,B2,YC,no,50,no,60,1,90,2,90,2,60,2,60,"ORDER: 2,3,2,4,3,4,4,3,2
+
+Y,Y,1,0;K,K,1,0;N,N,1,0;
+H,H,1,1;T,T,1,1;Q,Q,1,1;
+P,Q,0,1;P,P,1,1;
+Y,K,0,1;S,T,0,1;K,Q,0,1;
+N,N,1,1;J,J,1,1;
+Q,Q,1,1;Y,Y,1,1;N,N,1,1;H,H,1,1;
+K,K,1,1;K,K,1,1;S,S,1,0;
+J,J,1,1;N,N,1,1;L,L,1,1;F,F,1,1;
+J,J,1,1;R,R,1,1;K,K,1,0;H,H,1,1;
+K,K,1,1;T,T,1,1;K,K,1,1;
+F,J,0,1;N,N,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.78, PL=0.81, FU=0.67, FL=0.74
+",no,55,yes,45,1,60,3,30,2,70,4,30,2,70,1,70,"""Task 3 needed to be either round or have a circle inside. Task 1 needed to be a pentagon or have [a particular shape] inside"""
+63,2Bc,GL,C2,YC,yes,90,no,90,1,100,2,100,1,100,2,100,"ORDER: 3,4,2,3,4,3,2,4,2
+
+H,H,1,0;S,S,1,0;R,R,1,0;
+L,L,1,1;J,J,1,1;L,L,1,0;
+R,L,0,1;R,R,1,1;K,K,1,1;
+H,H,1,1;T,T,1,1;H,H,1,1;N,N,1,1;
+F,F,1,1;P,P,1,1;
+J,J,1,1;J,J,1,1;S,S,1,1;
+L,L,1,1;F,F,1,1;T,T,1,1;Y,Y,1,1;
+S,S,1,1;R,R,1,1;S,S,1,1;
+P,P,1,1;Q,Q,1,1;
+P,P,1,1;H,H,1,1;J,J,1,1;K,K,1,1;
+T,T,1,1;T,T,1,1;
+
+RESULTS: n=27, acc=100%, PU=0.96, PL=0.96, FU=0.89, FL=0.89",no,80,yes,90,3,100,2,100,4,100,1,100,2,100,4,100,"""An object that is brightly coloured and more likely to be a warm colour"""
+64,2Bd,GL,D2,YC,no,100,yes,100,2,100,1,100,2,100,1,100,"ORDER: 2,3,4,4,3,2,2,3,4
+
+R,R,1,0;Q,Q,1,0;K,K,1,0;
+R,R,1,1;L,L,1,1;T,T,1,1;
+N,N,1,1;P,P,1,1;
+R, ,0,1;F, ,0,1;L, ,0,0;
+Q,Q,1,0;N,N,1,1;K,K,1,1;Y,Y,1,1;
+H,H,1,1;R,R,1,1;F,F,1,1;K,K,1,1;
+P,P,1,1;S,S,1,1;R,R,1,1;
+N,N,1,1;R,R,1,1;
+K,K,1,1;Y,Y,1,1;
+H,H,1,1;N,N,1,1;R,R,1,1;
+K,K,1,0;Y,Y,1,1;J,J,1,1;P,P,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.89, PL=0.89, FU=0.89, FL=0.89
+",no,0,yes,5,1,0,4,0,2,5,3,0,2,100,2,5,"""I do not think there are any specific properties that make something a blicket"""
+65,1A,PD,Aa1,PT,yes,80,no,50,2,90,1,95,1,100,1,100,"ORDER: 2,4,4,2,4,3,2,3,3
+
+J,J,1,0;S,S,1,0;J,J,1,0;
+K,K,1,0;H,H,1,0;J,J,1,1;
+J,J,1,1;N,N,1,1;
+P,P,1,0;R,R,1,0;J,J,1,1;F,F,1,1;
+J,J,1,1;R,R,1,1;K,K,1,1;L,L,1,1;
+Q,Q,1,1;Y,Y,1,1;
+Y,Y,1,1;S,Y,0,0;Y,H,0,1;H,Y,0,1;
+K,K,1,1;T,T,1,1;J,J,1,1;
+R,R,1,1;Q,Q,1,0;
+R,R,1,1;Y,Y,1,1;Y,Y,1,1;
+S,S,1,1;Y,Y,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.92, PL=0.89, FU=0.89, FL=0.85",yes,90,yes,60,1,100,2,100,3,100,4,100,1,100,1,100,"""shape of the object- it needs to have sharp angles."""
+66,1B,PD,Ab1,PT,no,100,yes,100,2,100,2,100,1,100,1,100,"ORDER: 3,2,3,4,4,2,4,2,3
+
+F,F,1,0;N,N,1,0;T,T,1,0;
+Q,F,0,1;F,Q,0,0;Y,N,0,1;
+P,P,1,1;T,T,1,0;Q,Q,1,1;
+N,N,1,1;Y,Q,0,1;
+J,N,0,0;L,L,1,1;N,P,0,1;
+K,K,1,1;K,K,1,1;J,J,1,1;H,H,1,1;
+T,P,0,1;K,L,0,1;L,K,0,1;P,L,0,1;
+J,J,1,1;S,S,1,1;
+L,L,1,0;F,F,1,1;H,S,0,1;P,P,1,1;
+P,P,1,1;J,L,0,1;
+T,L,0,0;R,R,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.64, PL=0.63, FU=0.33, FL=0.33",no,15,no,10,2,100,4,100,1,100,3,100,1,100,2,60,"""When the shape and color are complimentary to the opposing color"""
+67,1C,PD,Ac1,PT,no,30,yes,30,1,60,2,60,1,80,2,30,"ORDER: 2,3,4,2,2,3,4,4,3
+
+J,J,1,0;T,T,1,0;J,J,1,0;
+N,N,1,1;H, ,0,1;Q,Q,1,1;
+H,H,1,1;H,H,1,1;
+S,S,1,1;T,T,1,1;J,J,1,1;
+J,J,1,1;Q,Q,1,0;J,J,1,1;J,J,1,1;
+R,T,0,1;Y,Y,1,1;
+T,T,1,0;N,N,1,1;
+Y,Y,1,1;L,L,1,1;S,S,1,0;
+N,N,1,0;T,T,1,1;Q,Q,1,1;K,K,1,1;
+F,F,1,1;Y,Y,1,1;Q,Q,1,1;K,K,1,1;
+T,T,1,1;F,F,1,1;Y,Y,1,0;
+
+RESULTS: n=27, acc=81%, PU=0.94, PL=0.96, FU=0.89, FL=0.93",yes,33,no,35,3,40,1,50,4,33,2,60,1,80,1,40,"""It was given to us that the blicket was activated by a center shape and that shape had a correlation with the other so that was assumed to activate it."""
+68,1D,PD,Ad1,PT,yes,90,yes,30,2,100,1,100,1,100,2,5,"ORDER: 2,4,4,2,3,4,2,3,3
+
+F,F,1,0;S,S,1,0;K,K,1,0;
+Y,Y,1,1;H,H,1,1;Q,Q,1,1;
+P,P,1,1;Q,Q,1,1;
+N,N,1,1;S,S,1,1;Y,Y,1,1;S,S,1,1;
+K,K,1,0;K,K,1,1;N,N,1,1;P,P,1,1;
+N,N,1,1;P,P,1,1;
+P,P,1,1;K,K,1,1;P,P,1,1;
+L,L,1,1;P,P,1,1;R,R,1,0;N,N,1,1;
+R,R,1,0;F,F,1,1;
+R,R,1,1;P,P,1,1;N,N,1,1;
+T,T,1,1;Q,Q,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=89%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",yes,80,yes,30,4,100,3,100,2,100,1,100,1,100,3,10,"""2) being convex (having places where it goes inwards) -> 2nd blicket 1st) rounded corners"""
+69,1A,YC,Ba1,PT,no,50,no,80,2,100,1,100,1,100,1,30,"ORDER: 4,3,2,4,3,2,4,2,3
+
+K,K,1,0;Y,Y,1,0;P,P,1,0;
+Y,Y,1,1;Y,Y,1,1;N,N,1,1;
+T, ,0,1;T,T,1,1;N, ,0,1;K,K,1,1;
+Y,Y,1,1;P,P,1,1;N,N,1,0;
+Q,Y,0,1;Q,Q,1,1;
+N,N,1,1;N,N,1,0;N,N,1,1;N,N,1,1;
+H,H,1,1;P,P,1,1;J,J,1,1;
+H,H,1,1;R,R,1,1;
+J, ,0,0;Q,J,0,1;H,H,1,1;R,R,1,0;
+T,T,1,1;N,N,1,1;
+J,J,1,1;K,K,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=85%, PU=0.83, PL=0.81, FU=0.67, FL=0.63",no,70,no,70,3,85,1,70,2,20,4,20,1,100,2,65,"""A blicket is an object that makes another object switch between two colors when they (the two objects) come in contact with each other"""
+70,1B,YC,Bb1,PT,yes,53,no,70,1,53,1,53,1,70,2,50,"ORDER: 4,3,3,3,4,2,4,2,2
+
+T,T,1,0;Q,Q,1,0;Y,Y,1,0;
+K,K,1,0;P,P,1,1;Y,Y,1,1;
+T,T,1,1;P,P,1,1;P,P,1,1;T,T,1,1;
+K,K,1,0;F,F,1,1;Y,P,0,1;
+S,F,0,1;R,R,1,1;Y,K,0,1;
+F,F,1,1;J,J,1,1;H,H,1,1;
+N,N,1,1;P,P,1,1;T,T,1,1;P,P,1,1;
+S,S,1,1;Q,Q,1,1;
+F,S,0,1;N,N,1,1;K,K,1,1;J,J,1,1;
+N,N,1,1;Q,Q,1,1;
+H,N,0,1;P,P,1,1;
+
+RESULTS: n=27, acc=96%, PU=0.81, PL=0.81, FU=0.56, FL=0.56",no,30,yes,30,1,90,4,90,2,90,3,90,1,90,2,40,"""It's either a specific spahe or maybe the location of the shape. Something that makes the bar change colors. I'm still trying to determine this"""
+71,1C,YC,Bc1,PT,yes,55,no,55,1,100,2,100,1,100,1,70,"ORDER: 4,3,3,4,2,2,3,4,2
+
+T,T,1,0;S,S,1,0;L,L,1,0;
+L,L,1,0;N,N,1,0;P,P,1,1;
+N,N,1,1;T,T,1,1;R,R,1,1;Y,Y,1,1;
+S,S,1,1;F,F,1,1;P,P,1,1;
+H,H,1,1;Y,Y,1,1;N,N,1,1;
+R,R,1,1;F,F,1,1;P,P,1,1;Y,Y,1,1;
+K,K,1,1;S,S,1,1;
+F,F,1,1;K,K,1,1;
+S,S,1,1;T,T,1,1;F,F,1,1;
+Y,Y,1,1;J,J,1,1;H,H,1,1;T,T,1,1;
+F,F,1,1;F,F,1,1;
+
+RESULTS: n=27, acc=100%, PU=1.00, PL=1.00, FU=1.00, FL=1.00
+",no,60,yes,65,3,100,2,100,4,100,1,100,1,100,2,90,"""Has a straight bottom edge or is associated with an object that has a straight bottom edge. Any object combined w/ a blicket will activate the blicket board."""
+72,1D,YC,Bd1,PT,yes,40,yes,30,2,95,1,95,1,100,2,80,"ORDER: 4,4,2,3,2,3,3,2,4
+
+Y,Y,1,0;P,P,1,0;S,S,1,0;
+H,H,1,1;K,K,1,1;F,F,1,1;
+F,F,1,1;S,S,1,1;N,N,1,1;P,P,1,1;
+H,H,1,1;Q,Q,1,1;Y,Y,1,1;J,J,1,1;
+F,F,1,1;H,H,1,1;
+L,H,0,0;J,H,0,1;T,J,0,1;
+L,L,1,1;P,P,1,1;
+R,L,0,1;K,K,1,1;J,J,1,1;
+T,L,0,1;K,K,1,1;N,N,1,0;
+N,L,0,1;R,R,1,0;
+L,L,1,1;L,L,1,1;F,R,0,1;N,N,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.73, PL=0.74, FU=0.44, FL=0.44",no,25,no,5,4,95,3,95,1,95,2,95,1,50,2,50,"""If it has a flat edge w/ corners that touches the detector (not a corner, a whole edge)"""
+73,2A,PD,Aa1,GL,no,50,no,40,2,40,1,40,2,80,2,60,"ORDER: 4,3,2,4,2,3,2,4,3
+
+ORDER: 4,4,4,2,2,3,2,3,3
+
+Q,Q,1,0;Y,Y,1,0;L,L,1,0;
+Q,Q,1,1;J,J,1,1;P,P,1,1;
+P,P,1,1;Y,J,0,1;N,N,1,1;R,L,0,0;
+S,S,1,1;P,K,0,1;K,F,0,1;P,P,1,1;
+L,L,1,1;R,R,1,0;K,K,1,1;T,T,1,1;
+T,T,1,1;F,F,1,1;
+R,R,1,1;Q,Q,1,0;
+F,F,1,1;F,F,1,1;Y,Y,1,1;
+S,S,1,1;K,K,1,1;
+P,P,1,1;P,P,1,1;R,R,1,1;
+S,S,1,1;Q,Q,1,1;S,S,1,1;
+
+RESULTS: n=27, acc=89%, PU=0.89, PL=0.85, FU=0.78, FL=0.70
+",no,60,yes,60,1,70,2,80,3,80,4,70,1,80,1,80,"""a shape that varies in color and may contain a shape of a different color inside"" "
+74,2B,PD,Ab1,GL,no,60,no,60,1,100,2,100,2,100,2,50,"ORDER: 4,2,2,3,4,4,2,3,3
+
+H,H,1,0;L,L,1,0;S,S,1,0;
+S,S,1,1;H,H,1,1;H,H,1,1;
+Y,Y,1,1;F,F,1,1;H,H,1,1;K,K,1,1;
+L,L,1,1;H,H,1,1;
+Q,Q,1,1;Q,Q,1,1;
+J,H,0,1;H,H,1,1;T,T,1,1;
+S,S,1,1;H,H,1,1;K,K,1,1;N,N,1,1;
+J, ,0,0;R,S,0,1;S,R,0,1;J,J,1,1;
+Q,Q,1,1;S,S,1,1;
+L, ,0,1;J,J,1,1;Q,Q,1,1;
+P,P,1,1;K,K,1,1;R,R,1,1;
+
+RESULTS: n=27, acc=96%, PU=0.84, PL=0.81, FU=0.67, FL=0.63
+",no,60,no,60,2,90,4,60,1,60,3,90,1,100,1,30,"""orange objects are blikets."""
+75,2C,PD,Ac1,GL,yes,20,no,60,1,95,2,95,2,95,1,95,"ORDER: 3,3,4,2,2,2,4,4,3
+
+T,T,1,0;Q,Q,1,0;H,H,1,0;
+L,L,1,1;K,K,1,1;P,P,1,1;
+R,R,1,1;F,F,1,1;T,T,1,1;
+Y,Y,1,1;T,T,1,1;L,L,1,0;
+H,H,1,1;K,K,1,1;L,L,1,1;R,R,1,1;
+T,T,1,1;N,N,1,0;
+H,H,1,1;K,K,1,1;
+Y,Y,1,0;Y,Y,1,1;
+R,R,1,1;K,K,1,1;R,R,1,1;T,T,1,1;
+T,T,1,1;S,S,1,1;L,L,1,1;L,L,1,1;
+Q,Q,1,1;K,K,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=89%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",yes,75,yes,75,3,95,1,95,4,95,2,95,1,95,1,95,"""A blicket may be an object with an internal shape that is a shade of purple and an exterior shape that is symmetrical on the x and y axis and can be divided into 4 sections that are identical (although possibly oriented differently)"""
+76,2D,PD,Ad1,GL,no,75,no,99,2,99,1,99,2,100,1,70,"ORDER: 3,4,2,4,2,4,2,3,3
+
+Q,Q,1,0;N,N,1,0;T,T,1,0;
+J,J,1,1;K,K,1,1;K,K,1,1;
+S,S,1,0;R,R,1,1;H,H,1,1;
+P,P,1,1;P,P,1,1;H,H,1,1;Y,Y,1,1;
+N,N,1,1;P,P,1,1;
+S,S,1,1;F,F,1,1;R,R,1,1;F,P,0,0;
+H,H,1,1;R,R,1,1;
+J,F,0,0;K,H,0,0;Y,R,0,1;S,Y,0,1;
+Q,Q,1,1;R,R,1,1;
+R,Q,0,1;Y,R,0,1;K,K,1,1;
+Q,Q,1,0;N,N,1,1;H,H,1,1;
+
+RESULTS: n=27, acc=81%, PU=0.79, PL=0.74, FU=0.67, FL=0.59
+",no,90,no,60,4,100,3,100,2,100,1,100,1,100,1,85,"""has the correct shape/color - maybe adding/removing other shapes to it will change it and not activate it though"""
+77,2A,YC,Ba1,GL,yes,75,no,90,2,90,1,90,2,90,2,60,"ORDER: 3,2,4,3,2,4,4,3,2
+
+H,H,1,0;N,N,1,0;K,K,1,0;
+J,H,0,0;Q,Q,1,0;Y,Y,1,1;
+Q,Q,1,1;N,N,1,1;J,J,1,0;
+Q,Q,1,1;T,T,1,1;
+T,T,1,1;J,J,1,1;R,R,1,0;L,L,1,0;
+Y,R,0,1;S,S,1,1;K,K,1,0;
+K,K,1,1;T,T,1,1;
+Q,Q,1,1;Q,Q,1,1;Q,Q,1,1;K,K,1,1;
+T,T,1,1;N,N,1,1;J,J,1,1;L,L,1,1;
+Y,Y,1,0;R,R,1,1;Q,Q,1,1;
+K,K,1,1;J,J,1,1;
+
+RESULTS: n=27, acc=81%, PU=0.96, PL=0.96, FU=0.89, FL=0.89",yes,75,no,75,2,75,1,75,3,90,4,90,1,90,2,90,"""Shape and colour of object and shape and colour of inner stuff associated with object (but unconfirmed)"""
+78,2B,YC,Bb1,GL,yes,60,no,70,1,100,2,100,2,100,2,100,"ORDER: 4,4,3,2,2,2,3,4,3
+
+Y,Y,1,0;R,R,1,0;J,J,1,0;
+Q,Q,1,1;H,H,1,0;L,L,1,1;
+Y,Y,1,1;K,K,1,1;F,L,0,1;L,L,1,0;
+F,Y,0,1;L,F,0,1;R,L,0,1;F,L,0,0;
+T,T,1,0;L,L,1,1;T,T,1,0;
+R,R,1,1;H,H,1,1;
+P,P,1,1;S,S,1,1;
+P,P,1,1;J,J,1,1;
+N,N,1,1;Y,Y,1,0;Q,Q,1,1;
+K,K,1,1;L,L,1,1;T,T,1,1;Y,Y,1,1;
+Q,Q,1,1;P,P,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=81%, PU=0.86, PL=0.81, FU=0.78, FL=0.70",yes,98,no,98,1,100,4,100,2,100,3,100,1,100,2,100,"""I think that the inner shape makes an object a blicket"""
+79,2C,YC,Bc1,GL,no,100,yes,100,1,50,2,80,2,90,1,80,"ORDER: 2,3,2,2,3,3,4,4,4
+
+N,N,1,0;F,F,1,0;S,S,1,0;
+T,T,1,1;H,H,1,1;K,K,1,1;
+K,K,1,1;J,J,1,1;
+R,R,1,1;F,K,0,1;R,R,1,1;
+T,T,1,1;N,N,1,1;
+P,P,1,1;P,P,1,1;
+P,P,1,1;S,S,1,1;H,H,1,1;
+R,R,1,1;Y,T,0,1;T,H,0,0;
+P,P,1,1;R,R,1,1;S,S,1,1;Y,Y,1,1;
+P,P,1,1;F,F,1,1;Q,Q,1,1;Q,Q,1,1;
+Q,P,0,1;K,K,1,1;Q,Q,1,0;H,H,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.86, PL=0.85, FU=0.67, FL=0.63
+",yes,100,no,100,3,100,2,100,4,100,1,100,1,100,2,100,"""I think the cross shape that had the grey shape inside having the grey shape makes the object a blicket assuming that even if it is not onscreen it is inside the cross"""
+80,2D,YC,Bd1,GL,no,98,no,62,2,100,1,100,2,100,1,97,"ORDER: 3,4,4,4,3,2,2,2,3
+
+P,P,1,0;K,K,1,0;R,R,1,0;
+H,H,1,1;P,P,1,1;N,N,1,1;
+N,N,1,1;Y,Y,1,1;H,H,1,1;
+F,F,1,1;H,H,1,1;L,L,1,1;N,N,1,1;
+N,N,1,1;J,J,1,1;H,H,1,1;K,K,1,0;
+J,J,1,1;L,L,1,1;J,J,1,1;H,H,1,1;
+S,S,1,1;Q,Q,1,1;Q,Q,1,0;
+H,H,1,1;Y,Y,1,1;
+R,R,1,1;N,N,1,1;
+P,P,1,1;Y,Y,1,1;
+F,F,1,1;L,L,1,1;L,L,1,1;
+
+RESULTS: n=27, acc=93%, PU=1.00, PL=1.00, FU=1.00, FL=1.00",no,80,no,20,4,100,3,100,1,100,2,100,1,100,2,95,"""A shape that has both rounded and straigh edges."""
+81,A1,PD,Aa2,PT,no,65,no,65,2,99,1,99,1,100,1,70,"ORDER: 4,3,2,3,3,4,4,2,2
+
+R,R,1,0;L,L,1,0;F,F,1,0;
+N,N,1,1;Q,Q,1,0;Q,Q,1,0;
+T,T,1,1;Y,Y,1,1;S,S,1,1;S,S,1,1;
+R,R,1,1;L,L,1,1;Y,N,0,1;
+J,L,0,1;T,J,0,0;
+F,F,1,0;F,F,1,1;Y,Y,1,1;
+S,N,0,1;L,S,0,1;J,Y,0,1;
+H,N,0,1;T,H,0,1;Y,Y,1,1;F,F,1,1;
+Q,Q,1,1;T,T,1,1;H,H,1,1;H,H,1,1;
+Q,Q,1,1;Y,Y,1,1;
+H,H,1,1;K,K,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.69, PL=0.70, FU=0.56, FL=0.56",no,60,yes,60,1,100,2,100,3,100,4,100,2,99,2,60,"""If it’s a convex polygon"""
+82,B1,PD,Ab2,PT,yes,60,no,70,1,100,2,100,1,100,1,100,"ORDER: 4,3,3,3,4,2,2,4,2
+
+K,K,1,0;S,S,1,0;Q,Q,1,0;
+Y,Y,1,1;K,K,1,1;Q,Q,1,1;
+Q,Q,1,1;Q,Q,1,0;K,K,1,1;Q,Q,1,1;
+H,H,1,1;J,J,1,1;Q,K,0,1;
+F,F,1,1;S,S,1,1;H,H,1,1;
+Y,Y,1,1;R,R,1,1;F,F,1,1;
+L,L,1,1;S,S,1,1;J,J,1,1;F,F,1,1;
+H,H,1,0;L,L,1,1;
+J,J,1,1;H,H,1,1;
+R,R,1,1;H,H,1,1;L,L,1,1;Y,Y,1,1;
+Y,Y,1,1;Q,Q,1,1;
+
+RESULTS: n=27, acc=93%, PU=0.96, PL=0.96, FU=0.89, FL=0.89",no,90,yes,95,2,98,4,99,1,99,3,100,1,80,2,90,"""The shape that is in the object makes it a blicket e.g. the diamond in the square made the square a blicket"""
